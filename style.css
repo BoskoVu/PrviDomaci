@@ -1,0 +1,85 @@
+body{
+	background-color:white;
+	background-image:url("images/pozadina.jpg");
+	background-repeat:no-repeat;
+	background-size:105%;
+	}
+#wrapper{
+	width:960px;
+	height:500px;
+	border:solid 1px blue;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#ffffff;
+	}
+#header{
+	height:170px;
+	background-color:black;
+	background-image:url("images/pozadina1.jpg");
+	background-repeat:no-repeat;
+	background-size:20%;
+	margin: 0 0 0 0 ;
+}
+#logo:hover{
+	opacity: 60%;
+}
+#logo{
+	margin-top:5px;
+	margin-left:280px;
+	padding:10px;
+	width:230px;
+	height:50px;
+	float:left;
+	}
+#logging{
+	padding:25px;
+	width:260px;
+	height:250px;
+	float:left;
+	}
+#logging p{
+	float:right;
+	color:#ffffff;
+	}
+.pretraga{
+	width:100px;;
+	}
+/*menu*/
+.menu{
+	height: 40px;
+	background-color:black;
+	margin: 0 0 0 0;
+	}
+.menu ul{
+	list-style:none;
+	padding-left:0;
+	margin:0;
+}
+.menu ul li{
+	
+	float:left;
+	padding:5px 20px 15px 0;
+	width:138px;
+}
+.menu ul li a{
+	display:block;
+	text-decoration:none;
+	background-color:black;
+	padding:5px 20px 5px 35px;
+	color:white;
+	font-size: 19px;
+	}
+.menu ul li a:hover{
+	background-color:silver;
+	}
+
+#footer{
+	width:945px;
+	height:200px;
+	background-color: #ffffff;
+	border: 2px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left: 15px;
+}
